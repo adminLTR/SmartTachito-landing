@@ -6,11 +6,21 @@
 .bg-main {
     background-color: var(--main);
 }
+.bg-second {
+    background-color: var(--second);
+}
+.text-main {
+    color: var(--main);
+}
+.text-second {
+    color: var(--second);
+}
 
 header ul .nav-link {
     color: white;
     font-weight: bold;
     transition: all ease-in-out .2s;
+    text-align: center;
 }
 
 header ul .nav-link:hover, header ul .nav-link.link-active {
