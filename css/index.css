@@ -1,0 +1,18 @@
+:root {
+    --main: rgb(0, 48, 80);
+    --second: rgb(0, 165, 182);
+}
+
+.bg-main {
+    background-color: var(--main);
+}
+
+header ul .nav-link {
+    color: white;
+    font-weight: bold;
+    transition: all ease-in-out .2s;
+}
+
+header ul .nav-link:hover, header ul .nav-link.link-active {
+    color: var(--second);
+}
