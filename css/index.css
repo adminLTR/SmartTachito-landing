@@ -1,6 +1,6 @@
 :root {
     --main: rgb(0, 48, 80);
-    --second: rgb(0, 165, 182);
+    --second: rgb(22, 210, 231);
 }
 
 .bg-main {
@@ -15,7 +15,6 @@
 .text-second {
     color: var(--second);
 }
-
 header ul .nav-link {
     color: white;
     font-weight: bold;
@@ -24,5 +23,34 @@ header ul .nav-link {
 }
 
 header ul .nav-link:hover, header ul .nav-link.link-active {
-    color: var(--second);
+    color: white;
+}
+
+#technologies h3, #technologies h4 {
+    text-align: center;
+    width: 400px;
+    aspect-ratio: 1/1;
+    color: white;
+    align-content: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+#technologies h4 {
+    width: 150px;
+    font-size: 25px;
+}
+.tech-main h4, .tech-main h3 {
+    background-color: var(--main);
+}
+.tech-purple h4, .tech-purple h3 {
+    background-color: rgb(123, 26, 136);
+}
+.tech-green h4, .tech-green h3 {
+    background-color: rgb(26, 136, 42);
+}
+.tech-pink h4, .tech-pink h3 {
+    background-color: rgb(207, 0, 204);
+}
+#home-content {
+    text-align: justify;
 }
